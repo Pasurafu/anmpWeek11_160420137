@@ -19,9 +19,13 @@ import java.util.concurrent.TimeUnit
 class StudentDetailFragment : Fragment() {
     private lateinit var viewModel: DetailViewModel
 
+
+
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
+
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_student_detail, container, false)

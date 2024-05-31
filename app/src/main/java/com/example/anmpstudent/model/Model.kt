@@ -1,7 +1,7 @@
 package com.example.anmpstudent.model
 
 import com.google.gson.annotations.SerializedName
-
+//
 data class Student(
     val id:String?,
     @SerializedName("student_name")

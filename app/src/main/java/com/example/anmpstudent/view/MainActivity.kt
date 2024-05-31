@@ -9,7 +9,7 @@ import androidx.core.app.NotificationManagerCompat
 import android.Manifest
 import com.example.anmpstudent.R
 import com.example.anmpstudent.util.createNotificationChannel
-
+//
 class MainActivity : AppCompatActivity() {
     init {
         instance = this

@@ -13,7 +13,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.anmpstudent.R
 import com.example.anmpstudent.viewmodel.CarViewModel
 import com.example.anmpstudent.viewmodel.ListViewModel
-
+//
 class CarListFragment : Fragment() {
     private lateinit var viewModel: CarViewModel
     private val carListAdapter  = CarListAdapter(arrayListOf())

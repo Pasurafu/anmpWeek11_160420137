@@ -19,6 +19,8 @@ class StudentListFragment : Fragment() {
     private lateinit var viewModel: ListViewModel
     private val studentListAdapter  = StudentListAdapter(arrayListOf())
 
+
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

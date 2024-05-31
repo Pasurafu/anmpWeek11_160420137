@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.anmpstudent.R
 import com.example.anmpstudent.model.Car
 import com.example.anmpstudent.model.Student
-
+//
 class CarListAdapter(val carList:ArrayList<Car>): RecyclerView.Adapter<CarListAdapter.CarViewHolder>() {
     class CarViewHolder(view: View): RecyclerView.ViewHolder(view) {
         val txtInfo: TextView
